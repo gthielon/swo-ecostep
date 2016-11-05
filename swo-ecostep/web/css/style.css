@@ -212,7 +212,7 @@
 
 .cache:hover{
     color: black;
-    opacity: .65;
+    opacity: .55;
 }
 
 .gdTitreAlim {
@@ -228,3 +228,9 @@
 .uneAlim {
     margin-bottom: 50px;
 }
+
+.alimTitre2 {
+
+    opacity:1;
+
+ }
