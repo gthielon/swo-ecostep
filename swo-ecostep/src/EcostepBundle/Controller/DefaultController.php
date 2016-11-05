@@ -8,7 +8,7 @@ use Sensio\Bundle\FrameworkExtraBundle\Configuration\Route;
 class DefaultController extends Controller
 {
     /**
-     * @Route("/index")
+     * @Route("/")
      */
     public function indexAction()
     {
@@ -24,10 +24,10 @@ class DefaultController extends Controller
     }
 
     /**
-     * @Route("/footer")
+     * @Route("/mobile")
      */
-    public function footerAction()
+    public function mobileAction()
     {
-        return $this->render('EcostepBundle:Default:footer.html.twig');
+        return $this->render('EcostepBundle:Default:mobile.html.twig');
     }
 }
