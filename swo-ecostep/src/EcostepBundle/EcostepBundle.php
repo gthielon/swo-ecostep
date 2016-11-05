@@ -1,9 +1,9 @@
 <?php
 
-namespace AppBundle;
+namespace EcostepBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class AppBundle extends Bundle
+class EcostepBundle extends Bundle
 {
 }
