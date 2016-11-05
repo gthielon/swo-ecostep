@@ -22,4 +22,12 @@ class DefaultController extends Controller
     {
         return $this->render('EcostepBundle:Default:map.html.twig');
     }
+
+    /**
+     * @Route("/mobile")
+     */
+    public function mobileAction()
+    {
+        return $this->render('EcostepBundle:Default:mobile.html.twig');
+    }
 }
