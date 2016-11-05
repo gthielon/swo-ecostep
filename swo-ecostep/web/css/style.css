@@ -1,4 +1,9 @@
-
+body {
+    background-image: url("../images/fontcontent50.jpg");
+}
+.bodyback {
+    height: 25vh;
+}
 /*########## Début CSS bannière ##########*/
 
 .bantop {
@@ -6,16 +11,110 @@
     width: 100%;;
 }
 .logo {
-    margin-top: -300px;
-    margin-left: 25px;
+
+    width: 250px;
+    height: auto;
+    margin-top: -140px;
+}
+.slogan {
+    height: 60px;
+    width: auto;
+    margin-left: 200px;
+    margin-top: -20px;
+}
+ul {
+    margin-top: 70px;
+}
+.picto {
+    height: 50px;
+    width: 50px;
 }
 /*########## Fin CSS bannière ##########*/
 
-/*########## Début NavBar ##########*/
+/*########## Début NavBar ##########
+ul{
+    color: white;
+    width: 100%;
+    margin-left: 15%;
+}
+li {
+    color: white;
+}
+.nav {
+    margin:auto;
+    background-color: #6d995c;
+}
+.navbar {
+    margin-left: 8%;
+}
+.menua {
+    background-color: #1b6d85;
+    width: 13%;
+    text-align: center;
+    color: white;
+    border-radius: 0 20px 0 20px;
+}
+.menub {
+    background-color: #4cae4c;
+    width: 13%;
+    text-align: center;
+    color: white;
+    border-radius: 0 20px 0 20px;
+}
+.menuc {
+    background-color: #9d9d9d;
+    width: 13%;
+    text-align: center;
+    color: white;
+    border-radius: 0 20px 0 20px;
+}
+.menud {
+    background-color: #761c19;
+    width: 13%;
+    text-align: center;
+    color: white;
+    border-radius: 0 20px 0 20px;
+}
+.menue {
+    background-color: #adadad;
+    width: 13%;
+    text-align: center;
+    color: white;
+    border-radius: 0 20px 0 20px;
+}
+.menuf {
+    background-color: #eb9316;
+    width: 13%;
+    text-align: center;
+    color: white;
+    border-radius: 0 20px 0 20px;
+}
+.menug {
+    background-color: darkgreen;
+    width: 13%;
+    text-align: center;
+    color: white;
+    border-radius: 0 15px 0 15px;
+}
+########## Fin NavBar ##########*/
+
+/*########## ESSAI NAV ##########*/
+
+.navbase {
+    height: 50px;
+    background-color: #6d995c;
+}
+li {
+    display: inline-block;
+    color: white;
+}
+.picto {
+    height: 20px;
+    width: 20px;
+}
+/*########## FIN ESSAI ##########*/
 
 
-
-/*########## Fin NavBar ##########*/
 
 
 /* ########## GOOGLE MAP ########## */
