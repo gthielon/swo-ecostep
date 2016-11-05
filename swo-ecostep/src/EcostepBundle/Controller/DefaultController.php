@@ -14,4 +14,12 @@ class DefaultController extends Controller
     {
         return $this->render('EcostepBundle:Default:index.html.twig');
     }
+
+    /**
+     * @Route("/map")
+     */
+    public function mapAction()
+    {
+        return $this->render('EcostepBundle:Default:map.html.twig');
+    }
 }
