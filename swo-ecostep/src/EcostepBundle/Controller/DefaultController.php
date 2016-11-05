@@ -30,4 +30,12 @@ class DefaultController extends Controller
     {
         return $this->render('EcostepBundle:Default:mobile.html.twig');
     }
+
+    /**
+     * @Route("/alim")
+     */
+    public function alimAction()
+    {
+        return $this->render('EcostepBundle:Default:alimAccueil.html.twig');
+    }
 }

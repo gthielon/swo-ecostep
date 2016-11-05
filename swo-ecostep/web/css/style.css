@@ -198,3 +198,28 @@
     }
 
 }
+/*########## Début rond ##########*/
+
+.cercle1 {
+    height: 250px;
+    width: 250px;
+
+}
+
+.cache {
+    color: white;
+}
+
+.cache:hover{
+    color: black;
+    opacity: .65;
+}
+
+.gdTitreAlim {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    background-color: #BAF18C;
+    padding-top:-10px;
+
+}
