@@ -30,4 +30,12 @@ class DefaultController extends Controller
     {
         return $this->render('EcostepBundle:Default:mobile.html.twig');
     }
+
+    /**
+     * @Route("/compte")
+     */
+    public function compteAction()
+    {
+        return $this->render('EcostepBundle:Default:compte.html.twig');
+    }
 }
