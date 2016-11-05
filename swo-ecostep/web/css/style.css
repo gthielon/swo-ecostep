@@ -234,3 +234,21 @@
     opacity:1;
 
  }
+/* ########## Mobile ########## */
+
+    .store{
+        width: 25%;
+    }
+    .appstore{
+        margin-top: 50px;
+
+    }
+    .appstore p{
+        font-size: large;
+    }
+    .i{
+        margin-right: 2px;
+    }
+    .imgresize{
+        width: 260px;
+    }
