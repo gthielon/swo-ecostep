@@ -30,4 +30,12 @@ class DefaultController extends Controller
     {
         return $this->render('EcostepBundle:Default:footer.html.twig');
     }
+
+    /**
+     * @Route("/alim")
+     */
+    public function alimAction()
+    {
+        return $this->render('EcostepBundle:Default:alim.html.twig');
+    }
 }
