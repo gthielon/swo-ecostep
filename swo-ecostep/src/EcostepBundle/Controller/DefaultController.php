@@ -22,4 +22,12 @@ class DefaultController extends Controller
     {
         return $this->render('EcostepBundle:Default:map.html.twig');
     }
+
+    /**
+     * @Route("/footer")
+     */
+    public function footerAction()
+    {
+        return $this->render('EcostepBundle:Default:footer.html.twig');
+    }
 }
