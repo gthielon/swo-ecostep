@@ -1,45 +1,387 @@
 {% extends '@Ecostep/Default/squelette.html.twig' %}
 
 {% block content %}
+    <!DOCTYPE html>
+    <html>
+    <body>
 
-    <div class="container-fluid" id="about-user">
-        <div class="row">
-            <div class="col-lg-offset-2 col-lg-5">
-                <p class="text-presentation text-center">Bonjour Guillaume. <br />
-                Bienvenue sur votre compte.</p>
+    <!-- RECAPITULATIF-->
+    <div class="services" id="services">
+        <div class="container">
+            <div class="col-md-4 services-left">
+                <div class="services-left-info">
+                    <i class="fa fa-user" aria-hidden="true" style="font-size: 3em"></i>
+                    <h4 style="font-size: 30px">Bienvenue sur votre espace personnel.</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus enim ac scelerisque ornare. Fusce laoreet, ipsum nec ultrices fermentum, arcu lacus ullamcorper quam, quis ultricies ligula neque sit amet nisi. Integer pharetra lectus justo, at tempor nibh maximus non. In iaculis at odio id pharetra.</p>
+                </div>
             </div>
-            <div class="col-lg-7">
-                <i class="fa fa-user fa-6" aria-hidden="true"></i>
+            <div class="col-md-8 services-right">
+                <div class="services-right-grids">
+                    <div class="agile-services-grid">
+                        <div class="w3l-services-grids">
+                            <div class="service-grid-bg">
+                                <div class="service-grid-text">
+                                    <i class="fa fa-asterisk" style="color: green" aria-hidden="true"></i>
+                                    <h5>Alimentaire</h5>
+                                </div>
+                            </div>
+                            <div class="service-grid-bg">
+                                <div class="service-grid-text">
+                                    <i class="fa fa-gavel" style="color: green" aria-hidden="true"></i>
+                                    <h5>Habitat</h5>
+                                </div>
+                            </div>
+                            <div class="service-grid-bg">
+                                <div class="service-grid-text">
+                                    <i class="fa fa-recycle" style="color: green" aria-hidden="true"></i>
+                                    <h5>Recyclage</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3l-services-grids w3l-services-grids1">
+                            <div class="service-grid-bg">
+                                <div class="service-grid-text">
+                                    <i class="fa fa-magnet" style="color: green" aria-hidden="true"></i>
+                                    <h5>Bien-être</h5>
+                                </div>
+                            </div>
+                            <div class="service-grid-bg">
+                                <div class="service-grid-text">
+                                    <i class="fa fa-map" style="color: green" aria-hidden="true"></i>
+                                    <h5>Transport</h5>
+                                </div>
+                            </div>
+                            <div class="service-grid-bg">
+                                <div class="service-grid-text">
+                                    <i class="fa fa-scissors" style="color: green" aria-hidden="true"></i>
+                                    <h5>Astuces</h5>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w3l-services-grids w3l-services-grids2">
+                            <div class="service-grid-bg">
+                                <div class="service-grid-text">
+                                    <i class="fa fa-lightbulb-o fa-6" style="color: green" aria-hidden="true"></i>
+                                    <h5>Energie</h5>
+                                </div>
+                            </div>
+                            <div class="service-grid-bg">
+                                <div class="service-grid-text">
+                                    <i class="fa fa-life-ring" style="color: green" aria-hidden="true"></i>
+                                    <h5>Loisirs</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
-        <div class="row">
-            <div class="col-lg-offset-2 col-lg-7">
-                <p class="text-presentation2 text-center">Voici votre progression :</p>
-            </div>
+            <div class="clearfix"> </div>
         </div>
+    </div>
 
-        <div class="row">
-            <div class="col-lg-1 col-lg-offset-2 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/100x100" alt="">
+
+    <!-- ARTICLES DEJA CONSULTES -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="wthree-about-info first">
+                <h3>Articles précédemment consultés.</h3>
+                <p>Cras eleifend hendrerit libero, quis consequat justo congue aliquam.</p>
             </div>
-            <div class="col-lg-1 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/100x100" alt="">
-            </div>
-            <div class="col-lg-1 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/100x100" alt="">
-            </div>
-            <div class="col-lg-1 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/100x100" alt="">
-            </div>
-            <div class="col-lg-1 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/100x100" alt="">
-            </div>
-            <div class="col-lg-1 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/100x100" alt="">
-            </div>
-            <div class="col-lg-1 col-sm-6 text-center">
-                <img class="img-circle img-responsive img-center" src="http://placehold.it/100x100" alt="">
+            <div class="agileits-about-grids">
+                <div class="agileits-about-top-grids">
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-thumbs-up" style="color: green aria-hidden="true"></i>
+                            <h4>Mauris lorem sapien</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-thumbs-up" style="color: green aria-hidden="true"></i>
+                                <h4>Mauris lorem sapien</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-university" style="color: green aria-hidden="true"></i>
+                            <h4>Phasellus magna</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-university" style="color: green aria-hidden="true"></i>
+                                <h4>Phasellus magna</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-suitcase" style="color: green aria-hidden="true"></i>
+                            <h4>Vivamus venenatis</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-suitcase" style="color: green aria-hidden="true"></i>
+                                <h4>Vivamus venenatis</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-road" style="color: green aria-hidden="true"></i>
+                            <h4>Aenean sed dolor</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-road" style="color: green aria-hidden="true"></i>
+                                <h4>Aenean sed dolor</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="agileits-about-top-grids">
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-heart" style="color: green aria-hidden="true"></i>
+                            <h4>Mauris lorem sapien</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-heart" style="color: green aria-hidden="true"></i>
+                                <h4>Mauris lorem sapien</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-gift" style="color: green aria-hidden="true"></i>
+                            <h4>Phasellus magna</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-gift" style="color: green aria-hidden="true"></i>
+                                <h4>Phasellus magna</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-anchor" style="color: green aria-hidden="true"></i>
+                            <h4>Vivamus venenatis</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-anchor" style="color: green aria-hidden="true"></i>
+                                <h4>Vivamus venenatis</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-archive" style="color: green aria-hidden="true"></i>
+                            <h4>Aenean sed dolor</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-archive" style="color: green aria-hidden="true"></i>
+                                <h4>Aenean sed dolor</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
             </div>
         </div>
     </div>
+
+
+    <!-- NOTRE SELECTION POUR VOUS -->
+    <div class="about" id="about">
+        <div class="container">
+            <div class="wthree-about-info second">
+                <h3>Notre sélection pour vous.</h3>
+                <p>Cras eleifend hendrerit libero, quis consequat justo congue aliquam.</p>
+            </div>
+            <div class="agileits-about-grids">
+                <div class="agileits-about-top-grids">
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                            <h4>Mauris lorem sapien</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+                                <h4>Mauris lorem sapien</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-university" aria-hidden="true"></i>
+                            <h4>Phasellus magna</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-university" aria-hidden="true"></i>
+                                <h4>Phasellus magna</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-suitcase" aria-hidden="true"></i>
+                            <h4>Vivamus venenatis</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-suitcase" aria-hidden="true"></i>
+                                <h4>Vivamus venenatis</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-road" aria-hidden="true"></i>
+                            <h4>Aenean sed dolor</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-road" aria-hidden="true"></i>
+                                <h4>Aenean sed dolor</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+                <div class="agileits-about-top-grids">
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-heart" aria-hidden="true"></i>
+                            <h4>Mauris lorem sapien</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                                <h4>Mauris lorem sapien</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-gift" aria-hidden="true"></i>
+                            <h4>Phasellus magna</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-gift" aria-hidden="true"></i>
+                                <h4>Phasellus magna</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-anchor" aria-hidden="true"></i>
+                            <h4>Vivamus venenatis</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-anchor" aria-hidden="true"></i>
+                                <h4>Vivamus venenatis</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 about-grid">
+                        <div class="about-grid-info">
+                            <i class="fa fa-archive" aria-hidden="true"></i>
+                            <h4>Aenean sed dolor</h4>
+                            <p>Nulla facilisi. Fusce malesuada elementum justo, et gravida orci maximus ut. Phasellus magna nunc.</p>
+                            <div class="agileits-caption">
+                                <i class="fa fa-archive" aria-hidden="true"></i>
+                                <h4>Aenean sed dolor</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- PROGRESSION -->
+    <div class="jarallax skills" id="skills">
+        <div class="container">
+            <div class="wthree-about-info skills-about-info">
+                <h3>Progression de la transition. </h3>
+                <p>Cras eleifend hendrerit libero, quis consequat justo congue aliquam.</p>
+            </div>
+            <div class="products-w3ls-row">
+                <div class="dark-area">
+                    <!-- some colors -->
+                    <div class="w3ls-skills-grids">
+                        <div id="lightcircle" class="c100 p60 dark">
+                            <span>77%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="w3ls-skills-info">
+                            <h4>Energie</h4>
+                            <p>Nam eget egestas erat. In hac habitasse platea dictumst. Duis in augue sagittis, malesuada justo vel, faucibus sapien.</p>
+                        </div>
+                    </div>
+                    <div class="w3ls-skills-grids">
+                        <div id="dgreencircle" class="c100 p60 dark blue">
+                            <span>60%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="w3ls-skills-info">
+                            <h4>Transport</h4>
+                            <p>Nam eget egestas erat. In hac habitasse platea dictumst. Duis in augue sagittis, malesuada justo vel, faucibus sapien.</p>
+                        </div>
+                    </div>
+                    <div class="w3ls-skills-grids">
+                        <div id="sacircle" class="c100 p60 dark pink">
+                            <span>83%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="w3ls-skills-info">
+                            <h4>Loisirs</h4>
+                            <p>Nam eget egestas erat. In hac habitasse platea dictumst. Duis in augue sagittis, malesuada justo vel, faucibus sapien.</p>
+                        </div>
+                    </div>
+                    <div class="w3ls-skills-grids">
+                        <div id="sacircle1" class="c100 p60 dark green">
+                            <span>83%</span>
+                            <div class="slice">
+                                <div class="bar"></div>
+                                <div class="fill"></div>
+                            </div>
+                        </div>
+                        <div class="w3ls-skills-info">
+                            <h4>Habitat</h4>
+                            <p>Nam eget egestas erat. In hac habitasse platea dictumst. Duis in augue sagittis, malesuada justo vel, faucibus sapien.</p>
+                        </div>
+                    </div>
+                    <div class="clearfix"> </div>
+                    <!-- /some colors -->
+                </div><!-- /.dark-area -->
+                <script type="text/javascript" src="js/percircle.js"></script>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        /* init Jarallax */
+        $('.jarallax').jarallax({
+            speed: 0.5,
+            imgWidth: 1366,
+            imgHeight: 768
+        })
+    </script>
+
+
+    <!-- //kills -->
+    <!-- //footer -->
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event){
+                event.preventDefault();
+                $('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+            });
+        });
+    </script>
+    </body>
+    </html>
 {% endblock %}

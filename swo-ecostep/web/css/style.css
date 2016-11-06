@@ -204,7 +204,7 @@
 \*====================================*/
 
 body {
-    background-image: url(../images/watercolor.jpg);
+    background-color: white;
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -213,14 +213,6 @@ body {
     font-family: 'Crimson Text', serif;
 }
 
-.text-presentation {
-    font-size: 25px;
-}
-
-.text-presentation2 {
-    font-size: 25px;
-}
-
-#about-user {
-    min-height: 50vh;
+.second,.first {
+    background-color: rgb(186, 241, 140);
 }
