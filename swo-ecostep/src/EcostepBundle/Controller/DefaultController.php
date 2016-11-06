@@ -32,6 +32,14 @@ class DefaultController extends Controller
     }
 
     /**
+     * @Route("/compte")
+     */
+    public function compteAction()
+    {
+        return $this->render('EcostepBundle:Default:compte.html.twig');
+    }
+
+    /**
      * @Route("/alim")
      */
     public function alimAction()
