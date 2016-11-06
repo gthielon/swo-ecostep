@@ -22,12 +22,14 @@ body {
     margin-left: 200px;
     margin-top: -20px;
 }
-ul {
-    margin-top: 70px;
+ul li,
+ul i{
+    color: #A77E48;
+    margin-right: 2px;
 }
 .picto {
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
 }
 /*########## Fin CSS bannière ##########*/
 
@@ -350,4 +352,15 @@ li {
     }
     .imgresize{
         width: 260px;
+    }
+    .styleliste{
+        text-shadow: 1px 1px black;
+    }
+    .vert{
+        background-color: #BAF18C;
+        border: #BAF18C;
+    }
+    .vert:hover{
+        background-color: forestgreen;
+        border: forestgreen;
     }

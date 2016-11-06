@@ -1,51 +1,31 @@
 {% block navbar %}
-    <!--
-<nav class="navbar navbar-default">
-    <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display --
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#"><i class="fa fa-shopping-basket" aria-hidden="true"></i>Alimentation</a>
+                    </li>
+                    <li><a href="#"><i class="fa fa-plug" aria-hidden="true"></i>
+                            Energie</a></li>
+                    <li><a href="#"><i class="fa fa-bicycle" aria-hidden="true"></i>
+                            Transport</a></li>
+                    <li><a href="#"><i class="fa fa-leaf" aria-hidden="true"></i>
+                            Bien-être</a></li>
+                    <li><a href="#"><i class="fa fa-recycle" aria-hidden="true"></i>Recyclage</a></li>
+                    <li><a href="#"><i class="fa fa-home" aria-hidden="true"></i>
+                            Habitat</a></li>
+                    <li><a><i class="fa fa-paper-plane" aria-hidden="true"></i>Loisirs</a></li>
+                </ul>
+            </div>
         </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling --
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-
-                <li class="menua"><a href="#">Alimentation</a></li>
-                <li class="menub"><a href="#">Energie</a></li>
-                <li class="menuc"><a href="#">Transport</a></li>
-                <li class="menud"><a href="#">Bien-être</a></li>
-                <li class="menue"><a href="#">Recyclage</a></li>
-                <li class="menuf"><a href="#">Habitat</a></li>
-                <li class="menug"><a href="#">Loisirs</a></li>
-
-
-            </ul>
-        </div><!-- /.navbar-collapse --
-    </div><!-- /.container-fluid --
-</nav>
-    <div class="bodyback">
-
-    </div>
-    -->
-    <div class="container-fluid">
-    <div class="row navbase">
-        <ul>
-            <li><a href="#"><img class="img-responsive picto" src="{{ asset('images/picto/alimentation.png') }}" alt="Alimentation" />Alimentation</a></li>
-            <li><a href="#"><img class="img-responsive picto" src="{{ asset('images/picto/energie.png') }}" alt="Energie" />Energie</a></li>
-            <li><a href="#"><img class="img-responsive picto" src="{{ asset('images/picto/transport.png') }}" alt="Transport" />Transport</a></li>
-            <li><a href="#"><img class="img-responsive picto" src="{{ asset('images/picto/bien-etre.png') }}" alt="Bien-être" />Bien-être</a></li>
-            <li><a href="#"><img class="img-responsive picto" src="{{ asset('images/picto/recyclage.png') }}" alt="Recyclage" />Recyclage</a></li>
-            <li><a href="#"><img class="img-responsive picto" src="{{ asset('images/picto/habitat.png') }}" alt="Habitat" />Habitat</a></li>
-            <li><a href="#"><img class="img-responsive picto" src="{{ asset('images/picto/loisirs.png') }}" alt="Loisirs" />Loisirs</a></li>
-
-        </ul>
-
-    </div>
-    </div>
+    </nav>
 {% endblock %}
