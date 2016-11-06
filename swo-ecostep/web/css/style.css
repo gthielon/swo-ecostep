@@ -31,6 +31,9 @@ ul i{
     height: 40px;
     width: 40px;
 }
+.navbar{
+    min-height: 60px;
+}
 /*########## Fin CSS bannière ##########*/
 
 /*########## Début NavBar ##########
