@@ -158,6 +158,10 @@ li {
 .footer-distributed .footer-left{
     width: 40%;
 }
+.imgfoot {
+    height: auto;
+    width: 150px;
+}
 
 /* The company logo */
 
@@ -367,3 +371,47 @@ li {
         background-color: forestgreen;
         border: forestgreen;
     }
+    /*=====================================*/
+     /*            TEXTE ACCUEIL            */
+    /*=====================================*/
+.accro1 {
+    background-color: #A77E48;
+    opacity: 0.5;
+    height: 150px;
+    width:auto;
+    margin: 40px 250px 0 60px;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    text-align: center;
+
+}
+.accro2 {
+    background-color: #A77E48;
+    opacity: 0.5;
+    height: 150px;
+    width:auto;
+    margin: 40px 60px 0 250px;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.accro3 {
+    background-color: #A77E48;
+    opacity: 0.5;
+    height: 150px;
+    width:auto;
+    margin: 40px 250px 0 60px;
+    border-radius: 20px;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-size: 20px;
+    text-align: center;
+}
+.titreaccro {
+    color: black;
+    text-align: center;
+}
